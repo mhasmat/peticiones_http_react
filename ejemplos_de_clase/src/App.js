@@ -2,6 +2,8 @@ import "./App.css";
 
 import AxiosGet from "./components/AxiosGet";
 import AxiosPost from "./components/AxiosPost";
+import FetchGet from "./components/FetchGet";
+import TodoItemAxios from "./components/TodoItemAxios";
 import RouterPrincipal from "./routes/RouterPrincipal";
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <div className="App">
       {/* 1 - Ejemplo con Axios y petición GET */}
       <AxiosGet />
+      {/* <TodoItemAxios /> */}
+      {/* <FetchGet /> */}
 
       {/* 2 - Ejemplo con Axios y petición POST */}
       {/* <AxiosPost /> */}
