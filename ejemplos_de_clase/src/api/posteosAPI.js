@@ -16,11 +16,11 @@ export const posteosAPI = {
       method: "POST",
       data: {
         titulo: titulo,
-        texto: texto
+        texto: texto,
       }
     })
     if(response) {
       return response.data
     }
-  },
+  }
 }

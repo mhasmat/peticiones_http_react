@@ -25,11 +25,11 @@ export const posteosAuthAPI = {
       method: "POST",
       data: {
         titulo: titulo,
-        texto: texto
+        texto: texto,
       }
     })
     if(response) {
       return response.data
     }
-  },
+  }
 }

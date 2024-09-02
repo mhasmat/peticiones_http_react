@@ -19,7 +19,7 @@ function App() {
       {/* <AxiosPost /> */}
 
       {/* 3 y 4 - Ejemplo de la página de posteos con AXIOS + backend */}
-      {/* <RouterPrincipal /> */}
+      <RouterPrincipal />
     </div>
   );
 }
